@@ -1,0 +1,30 @@
+wilder@wilder-ThinkPad-T440p:~$ mkdir wild-git
+wilder@wilder-ThinkPad-T440p:~$ cd wild-git/
+wilder@wilder-ThinkPad-T440p:~/wild-git$ git init
+Dépôt Git vide initialisé dans /home/wilder/wild-git/.git/
+wilder@wilder-ThinkPad-T440p:~/wild-git$ touch wild.html
+wilder@wilder-ThinkPad-T440p:~/wild-git$ git add wild.html 
+wilder@wilder-ThinkPad-T440p:~/wild-git$ git status
+Sur la branche master
+
+Aucun commit
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : wild.html
+
+wilder@wilder-ThinkPad-T440p:~/wild-git$ git commit -m "At Wild Code School, we code without shoes."
+[master (commit racine) 9c41f69] At Wild Code School, we code without shoes.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 wild.html
+wilder@wilder-ThinkPad-T440p:~/wild-git$ git log -p
+commit 9c41f695b53cb8b25c474aa5d92c5a16684c73be (HEAD -> master)
+Author: dcirlan <kirlan@hotmail.fr>
+Date:   Thu Sep 17 16:36:57 2020 +0200
+
+    At Wild Code School, we code without shoes.
+
+diff --git a/wild.html b/wild.html
+new file mode 100644
+index 0000000..e69de29
+wilder@wilder-ThinkPad-T440p:~/wild-git$ 
